@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Recipe Card Styles */
+  
+  .recipe-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    align-items: center;
+  }
+  
+  .recipe-card h2 {
+    margin: 0.5rem 0;
+  }
+  
+  /* Recipe Details Page */
+  .recipe-details {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .recipe-details h1 {
+    font-size: 2rem;
+    color: #ff6347;
+  }
+  
+  .recipe-details ul,
+  .recipe-details ol {
+    padding-left: 1.5rem;
+  }
+  
+  .recipe-details p {
+    line-height: 1.6;
+  }
+  
